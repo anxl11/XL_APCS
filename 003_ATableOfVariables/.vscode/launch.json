@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ATableOfVariables",
+            "request": "launch",
+            "mainClass": "ATableOfVariables"
+        }
+    ]
+}

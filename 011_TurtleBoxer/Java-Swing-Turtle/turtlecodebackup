@@ -1,0 +1,20 @@
+World w = new World(220,220);
+    
+Turtle t = new Turtle(w);
+    t.forward(50);
+    t.turnRight();
+    t.forward(50);
+    t.turnRight();
+    t.forward(100);
+    t.turnRight();
+    t.forward(100);
+    t.turnRight();
+    t.forward(100);
+    t.turnRight();
+    t.forward(50);
+    t.turnRight();
+    t.forward(100);
+    t.backward(50);
+    t.turnRight();
+    t.backward(50);
+    t.forward(100);
