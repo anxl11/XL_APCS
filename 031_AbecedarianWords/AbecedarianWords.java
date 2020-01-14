@@ -8,8 +8,10 @@ public class AbecedarianWords{
             String letter = new String(input.substring(ii-2, ii-1));
             String letternext = new String(input.substring(ii-1, ii));
             int compare = letter.compareToIgnoreCase(letternext);
+            //all cycles to the next letter
             
             if (compare<0){
+                //all when the first letter appears sonner on the alphabet
                 System.out.println("verified abecedarian");
             }
             else{

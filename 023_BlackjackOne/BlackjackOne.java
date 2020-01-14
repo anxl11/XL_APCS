@@ -13,7 +13,7 @@ public class BlackjackOne{
   //  String m = new String(scan.next());
 
   
-   
+   //al if and else statements that account for every single possibility.
   
 
 

@@ -6,12 +6,15 @@ public class RPSOne{
         
         
         System.out.println("Please input your choice: (r for rock, s for scissors, and p for paper");
+        // prompts user to input
         String p = new String(scan.next());
         int c = (int)(Math.random()*3+1);
+        // computer's choice
         String pc = new String();
         String rock = new String("r");
         String sci= new String("s");
         String pp = new String("p");
+        // if and else statements that account for every single possibility
         if (c ==1){
             pc = rock;
             if (p.equals(sci)  ){

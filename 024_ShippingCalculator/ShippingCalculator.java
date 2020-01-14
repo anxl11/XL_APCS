@@ -4,8 +4,10 @@ public class ShippingCalculator{
         
         Scanner scan = new Scanner(System.in);
         System.out.println(" Please enter the weight of your package:");
+        //all prompts user to input
         Double w = new Double(scan.nextDouble());
         double p;
+        //al if and else statements that account for every single possibility.
         if (w<=0){
             System.out.println("Your value is invalid");
         }

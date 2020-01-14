@@ -59,10 +59,10 @@ public class ScrabbleCalculator{
         int capX = player.length() - player.replaceAll("x", "").length();
         int capY = player.length() - player.replaceAll("y", "").length();
         int capZ = player.length() - player.replaceAll("z", "").length();
-      
+        // frequency of a letter in the word
 
 
-       
+        // calculate the value of a word based onvalues of its letter
          for (int ii=1; ii <= player.length();ii++){
             
             String letter = new String(player.substring(ii-1, ii));
@@ -107,6 +107,7 @@ public class ScrabbleCalculator{
         if (value>0){
             System.out.println("your score is"+value);
         }
+        //all quitting condition. activates when the letter  frequency exceeds limit
         else{
             System.out.println("This word is invalid");
             }

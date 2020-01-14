@@ -10,6 +10,7 @@ public class BasicNested{
         int column = scan.nextInt();
         for (int i =0; i<= row;i++){
             System.out.println();
+            // nested ifs to account for varations in user's response
             if (inp1.length()==1){
                 if(row<=20&&column<=20){
                     for(int ii =0; ii< column;ii++){
@@ -21,6 +22,7 @@ public class BasicNested{
                     System.out.print("your number of rows and columns can not exceed 20");
                     break;
                 }
+                // break condition
             }
             else{
                 System.out.print("your input must be a single letter");

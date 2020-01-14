@@ -3,6 +3,7 @@ public class SpellingBeeSimulator{
     public static void main(String[]args){
         Scanner scan =new Scanner(System.in);
         System.out.println("Please input your word");
+        //prompr user to input
         String n = new String(scan.next());
         for (int i=0;i<n.length();i++){
             System.out.print(n.substring(i,i+1));
@@ -23,8 +24,8 @@ public class SpellingBeeSimulator{
                 System.out.print(n.substring(i,i+1));
 
             }
-           
-        }
+           // take each letter as a substring and to "spell"
+                }
         System.out.println();
     }
 }
