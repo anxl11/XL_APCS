@@ -26,6 +26,7 @@ public class DateTranslator{
         System.out.println("Please review your input");
     }
     }
+    // methods for conversion
     public void EuroDay(int cDay,int cMonth,int cYear){
         date = cDay;
         month = cMonth;

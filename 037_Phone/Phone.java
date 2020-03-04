@@ -9,6 +9,7 @@ public class Phone{
        
 
     }
+    // methods for phone
     
     public void DataTap(double cData){
         cData=Data;

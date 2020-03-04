@@ -13,6 +13,7 @@ public class CustomCalculator{
         double numTwo = scan.nextDouble();
         System.out.println("Please choose your operation: add, subtract, divide, multiply, find remainder,log,power,nthRoot");
         String op = scan.next();
+        //qualifications
         if (op.equals("add")){
             calc.add(numOne, numTwo);
         }
@@ -39,6 +40,7 @@ public class CustomCalculator{
         }
 
     }
+    //methods for calculation
     public void add(double cnum1, double cNum2){
         num1 = cnum1;
         num2 = cNum2;
